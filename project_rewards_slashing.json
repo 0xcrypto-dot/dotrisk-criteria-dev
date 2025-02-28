@@ -1,0 +1,22 @@
+{
+   "project-1":{
+      "reward":{
+         "exists":true,
+         "criteria_public":true
+      },
+      "slashing":{
+         "exists":true,
+         "criteria_public":true
+      }
+   },
+   "project-2":{
+      "reward":{
+         "exists":true,
+         "criteria_public":false
+      },
+      "slashing":{
+         "exists":true,
+         "criteria_public":false
+      }
+   }
+}
