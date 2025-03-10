@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "contract_address": {
+      "type": "string",
+      "pattern": "^0x[a-fA-F0-9]{40}$"
+    },
+    "criteria": {
+      "type": "object",
+      "properties": {
+        "slashing": {
+          "type": "object",
+          "properties": {
+            "is_implemented": {
+              "type": "boolean"
+            },
+            "url": {
+              "type": "string",
+              "format": "uri"
+            }
+          },
+          "required": ["is_implemented", "url"]
+        },
+        "reward": {
+          "type": "object",
+          "properties": {
+            "is_implemented": {
+              "type": "boolean"
+            },
+            "url": {
+              "type": "string",
+              "format": "uri"
+            }
+          },
+          "required": ["is_implemented", "url"]
+        }
+      },
+      "required": ["slashing", "reward"]
+    },
+    "contact": {
+      "type": "object",
+      "properties": {
+        "telegram": {
+          "type": "string",
+          "format": "uri"
+        },
+        "discord": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": ["telegram"]
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": ["name", "contract_address", "criteria", "contact", "last_updated"]
+}

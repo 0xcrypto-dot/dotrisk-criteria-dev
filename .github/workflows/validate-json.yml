@@ -1,0 +1,24 @@
+name: Validate JSON
+
+on:
+  pull_request:
+    paths:
+      - 'files/avs_criteria.json'
+
+jobs:
+  json-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install AJV CLI
+        run: npm install -g ajv-cli
+
+      - name: Validate JSON files
+        run: ajv validate -s schema/avs_criteria_schema.json -d 'files/avs_criteria.json'
