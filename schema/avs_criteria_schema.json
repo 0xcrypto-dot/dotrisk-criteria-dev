@@ -19,8 +19,7 @@
               "type": "boolean"
             },
             "url": {
-              "type": "string",
-              "format": "uri"
+              "type": "string"
             }
           },
           "required": ["is_implemented", "url"]
@@ -32,8 +31,7 @@
               "type": "boolean"
             },
             "url": {
-              "type": "string",
-              "format": "uri"
+              "type": "string"
             }
           },
           "required": ["is_implemented", "url"]
@@ -45,12 +43,10 @@
       "type": "object",
       "properties": {
         "telegram": {
-          "type": "string",
-          "format": "uri"
+          "type": "string"
         },
         "discord": {
-          "type": "string",
-          "format": "uri"
+          "type": "string"
         }
       },
       "required": ["telegram"]
