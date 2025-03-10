@@ -24,7 +24,10 @@
                     "type": "boolean"
                   },
                   "url": {
-                    "type": "string"
+                    "anyOf": [
+                      { "type": "string", "format": "uri" },
+                      { "type": "string", "maxLength": 0 }
+                    ]
                   }
                 },
                 "required": ["is_implemented", "url"]
@@ -36,7 +39,10 @@
                     "type": "boolean"
                   },
                   "url": {
-                    "type": "string"
+                    "anyOf": [
+                      { "type": "string", "format": "uri" },
+                      { "type": "string", "maxLength": 0 }
+                    ]
                   }
                 },
                 "required": ["is_implemented", "url"]
@@ -48,16 +54,22 @@
             "type": "object",
             "properties": {
               "telegram": {
-                "type": "string"
+                "anyOf": [
+                  { "type": "string", "format": "uri" },
+                  { "type": "string", "maxLength": 0 }
+                ]
               },
               "discord": {
-                "type": "string"
+                "anyOf": [
+                  { "type": "string", "format": "uri" },
+                  { "type": "string", "maxLength": 0 }
+                ]
               }
-            },
-            "required": ["telegram"]
+            }
           },
           "last_updated": {
-            "type": "string"
+            "type": "string",
+            "format": "date-time"
           }
         },
         "required": ["name", "contract_address", "criteria", "contact", "last_updated"]

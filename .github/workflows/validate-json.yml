@@ -17,8 +17,9 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Install AJV CLI
-        run: npm install -g ajv-cli
+      - name: Install AJV CLI and ajv-formats
+        run: |
+          npm install -g ajv-cli ajv-formats
 
       - name: Validate JSON files
-        run: ajv validate -s schema/avs_criteria_schema.json -d 'files/avs_criteria.json'
+        run: ajv validate -c ajv-formats -s schema/avs_criteria_schema.json -d files/avs_criteria.json
