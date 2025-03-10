@@ -52,8 +52,7 @@
       "required": ["telegram"]
     },
     "last_updated": {
-      "type": "string",
-      "format": "date-time"
+      "type": "string"
     }
   },
   "required": ["name", "contract_address", "criteria", "contact", "last_updated"]
