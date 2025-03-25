@@ -3,7 +3,7 @@ const addFormats = require("ajv-formats");
 const fs = require("fs");
 
 if (process.argv.length < 5) {
-    console.error("❌ Usage: node validate_json.js <json_file> <category_file> <schema_file>");
+    console.error("Usage: node validate_json.js <json_file> <category_file> <schema_file>");
     process.exit(1);
 }
 
