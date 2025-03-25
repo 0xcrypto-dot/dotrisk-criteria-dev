@@ -2,9 +2,7 @@ name: Validate JSON
 
 on:
   pull_request:
-    paths:
-      - 'eigenlayer/holesky/files/avs_criteria.json'
-      - 'eigenlayer/mainnet/files/avs_criteria.json'
+    branch: main
 
 jobs:
   validate-json:
