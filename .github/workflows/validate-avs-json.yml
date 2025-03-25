@@ -19,9 +19,16 @@ jobs:
         with:
           node-version: '18'
 
+
       - name: Install Dependencies
         run: |
           npm install ajv ajv-formats
+
+      - name: Print Working Directory
+        run: pwd
+
+      - name: List Files
+        run: ls -R
 
       - name: Validate JSON
         run: node eigenlayer/scripts/validate_avs_json.js eigenlayer/${{ matrix.network }}/avs_criteria.json eigenlayer/schema/avs_category.json eigenlayer/schema/avs_criteria_schema.json
