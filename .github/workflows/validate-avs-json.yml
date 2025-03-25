@@ -1,0 +1,29 @@
+name: Validate JSON
+
+on:
+  pull_request:
+    paths:
+      - 'eigenlayer/holesky/files/avs_criteria.json'
+      - 'eigenlayer/mainnet/files/avs_criteria.json'
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        network: [holesky, mainnet]
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install Dependencies
+        run: |
+          npm install ajv ajv-formats
+
+      - name: Validate JSON
+        run: node eigenlayer/scripts/validate_avs_json.js eigenlayer/${{ matrix.network }}/avs_criteria.json eigenlayer/schema/avs_category.json eigenlayer/schema/avs_criteria_schema.json
