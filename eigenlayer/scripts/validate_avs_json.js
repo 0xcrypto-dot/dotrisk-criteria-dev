@@ -11,7 +11,7 @@ const jsonFile = process.argv[2];
 const categoryFile = process.argv[3];
 const schemaFile = process.argv[4];
 
-console.log(`🔍 Validating JSON file: ${jsonFile}`);
+console.log(`Validating JSON file: ${jsonFile}`);
 
 const ajv = new Ajv({ allErrors: true });
 addFormats(ajv);
@@ -29,7 +29,8 @@ if (!valid) {
 }
 
 const invalidCategories = fileData.projects
-    .map((project) => project.category)
+    .map((project) => project.categories)
+    .flat()
     .filter((category) => !categories.includes(category));
 
 if (invalidCategories.length > 0) {
