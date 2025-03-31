@@ -3,7 +3,7 @@
     {
       "name": "EigenDA",
       "contract_address": "0x870679e138bcdf293b7ff14dd44b70fc97e12fc0",
-      "category": "DA",
+      "categories": ["DA"],
       "criteria": {
         "slashing": {
           "is_implemented": true,
@@ -22,7 +22,7 @@
     {
       "name": "ARPA Network",
       "contract_address": "0x1de75eaab2df55d467494a172652579e6fa4540e",
-      "category": "DA",
+      "categories": ["DA"],
       "criteria": {
         "slashing": {
           "is_implemented": true,
@@ -40,7 +40,7 @@
     },
     {
       "name": "UniFi AVS",
-      "category": "DA",
+      "categories": ["DA"],
       "contract_address": "0x2d86e90ed40a034c753931ee31b1bd5e1970113d",
       "criteria": {
         "slashing": {

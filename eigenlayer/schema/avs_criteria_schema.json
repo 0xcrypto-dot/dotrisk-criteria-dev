@@ -10,8 +10,14 @@
           "name": {
             "type": "string"
           },
-          "category": {
-            "type": "string"
+          "categories": {
+            "anyOf": [
+              { "type": "string" },
+              {
+                "type": "array",
+                "items": { "type": "string" }
+              }
+            ]
           },
           "contract_address": {
             "type": "string",
@@ -71,7 +77,7 @@
             }
           }
         },
-        "required": ["name", "category", "contract_address", "criteria", "contact"]
+        "required": ["name", "categories", "contract_address", "criteria", "contact"]
       }
     }
   },
