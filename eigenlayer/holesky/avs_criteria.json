@@ -1,13 +1,146 @@
 {
   "projects": [
     {
-      "name": "EigenDA",
-      "contract_address": "0x870679e138bcdf293b7ff14dd44b70fc97e12fc0",
-      "categories": ["DA"],
+      "name": "Lagrange ZK Prover Network",
+      "avs_address": "0xf98d5de1014110c65c51b85ea55f73863215cc10",
+      "category": ["Social"],
       "criteria": {
         "slashing": {
+          "operator_sets": [
+            {
+              "id": "001",
+              "mechanisms": [
+                {
+                  "mechanism": "deterministic",
+                  "metadata": [
+                    {
+                      "name": "mechanism",
+                      "is_aligned": false,
+                      "source": "https://arpa.network/slashing"
+                    },
+                    {
+                      "name": "enforcement",
+                      "is_aligned": true,
+                      "source": "https://arpa.network/policy"
+                    },
+                    {
+                      "name": "openness",
+                      "is_aligned": true,
+                      "source": "https://arpa.network/docs"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "002",
+              "mechanisms": [
+                {
+                  "mechanism": "challenge_period",
+                  "metadata": [
+                    {
+                      "name": "mechanism",
+                      "is_aligned": false,
+                      "source": "https://arpa.network/slashing"
+                    },
+                    {
+                      "name": "enforcement",
+                      "is_aligned": false,
+                      "source": "https://arpa.network/policy"
+                    },
+                    {
+                      "name": "openness",
+                      "is_aligned": true,
+                      "source": "https://arpa.network/docs"
+                    },
+                    {
+                      "name": "incentive",
+                      "is_aligned": true,
+                      "source": "https://arpa.network/docs"
+                    }
+                  ]
+                },
+                {
+                  "mechanism": "committee_based",
+                  "metadata": [
+                    {
+                      "name": "mechanism",
+                      "is_aligned": false,
+                      "source": "https://arpa.network/slashing"
+                    },
+                    {
+                      "name": "enforcement",
+                      "is_aligned": false,
+                      "source": "https://arpa.network/policy"
+                    },
+                    {
+                      "name": "openness",
+                      "is_aligned": false,
+                      "source": "https://arpa.network/docs"
+                    },
+                    {
+                      "name": "incentive",
+                      "is_aligned": false,
+                      "source": "https://arpa.network/docs"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
           "is_implemented": true,
-          "url": "https://app.eigenlayer.xyz/avs/0x870679e138bcdf293b7ff14dd44b70fc97e12fc0"
+          "url": ""
+        },
+        "reward": {
+          "is_implemented": false,
+          "url": "https://discord.gg/arpa"
+        }
+      },
+      "contact": {
+        "telegram": "https://t.me/ARPA_Network",
+        "discord": "https://discord.gg/arpa"
+      }
+    },
+    {
+      "name": "EigenDA",
+      "avs_address": "0xd4a7e1bd8015057293f0d0a557088c286942e84b",
+      "category": ["DA", "ZK"],
+      "criteria": {
+        "slashing": {
+          "operator_sets": [
+            {
+              "id": "001",
+              "mechanisms": [
+                {
+                  "mechanism": "challenge_period",
+                  "metadata": [
+                    {
+                      "name": "mechanism",
+                      "is_aligned": true,
+                      "source": "https://www.source.com"
+                    },
+                    {
+                      "name": "enforcement",
+                      "is_aligned": true,
+                      "source": "https://www.source.com"
+                    },
+                    {
+                      "name": "openness",
+                      "is_aligned": true,
+                      "source": "https://www.source.com"
+                    },
+                    {
+                      "name": "incentive",
+                      "is_aligned": true,
+                      "source": "https://www.source.com"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "is_implemented": true,
+          "url": "https://slashing.com"
         },
         "reward": {
           "is_implemented": true,
@@ -20,30 +153,43 @@
       }
     },
     {
-      "name": "ARPA Network",
-      "contract_address": "0x1de75eaab2df55d467494a172652579e6fa4540e",
-      "categories": ["DA"],
+      "name": "Hyperlane AVS",
+      "avs_address": "0xc76e477437065093d353b7d56c81ff54d167b0ab",
+      "category": ["Interoperability"],
       "criteria": {
         "slashing": {
-          "is_implemented": true,
-          "url": ""
-        },
-        "reward": {
-          "is_implemented": true,
-          "url": ""
-        }
-      },
-      "contact": {
-        "telegram": "https://t.me/ARPA_Network",
-        "discord": "https://discord.gg/arpa"
-      }
-    },
-    {
-      "name": "UniFi AVS",
-      "categories": ["DA"],
-      "contract_address": "0x2d86e90ed40a034c753931ee31b1bd5e1970113d",
-      "criteria": {
-        "slashing": {
+          "operator_sets": [
+            {
+              "id": "003",
+              "mechanisms": [
+                {
+                  "mechanism": "committee_based",
+                  "metadata": [
+                    {
+                      "name": "mechanism",
+                      "is_aligned": true,
+                      "source": "https://unifi.io/zk"
+                    },
+                    {
+                      "name": "enforcement",
+                      "is_aligned": false,
+                      "source": "https://unifi.io/docs"
+                    },
+                    {
+                      "name": "openness",
+                      "is_aligned": true,
+                      "source": "https://unifi.io/challenges"
+                    },
+                    {
+                      "name": "incentive",
+                      "is_aligned": false,
+                      "source": "https://unifi.io/slashing"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
           "is_implemented": false,
           "url": ""
         },
