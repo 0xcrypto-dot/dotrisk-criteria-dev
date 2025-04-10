@@ -10,7 +10,11 @@
           "name": {
             "type": "string"
           },
-          "categories": {
+          "avs_address": {
+            "type": "string",
+            "pattern": "^0x[a-fA-F0-9]{40}$"
+          },
+          "category": {
             "anyOf": [
               { "type": "string" },
               {
@@ -19,16 +23,57 @@
               }
             ]
           },
-          "contract_address": {
-            "type": "string",
-            "pattern": "^0x[a-fA-F0-9]{40}$"
-          },
           "criteria": {
             "type": "object",
             "properties": {
               "slashing": {
                 "type": "object",
                 "properties": {
+                  "operator_sets": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string"
+                        },
+                        "mechanisms": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "mechanism": {
+                                "type": "string",
+                                "enum": ["deterministic", "challenge_period", "committee_based"]
+                              },
+                              "metadata": {
+                                "type": "array",
+                                "items": {
+                                  "type": "object",
+                                  "properties": {
+                                    "name": {
+                                      "type": "string",
+                                      "enum": ["mechanism", "enforcement", "openness", "incentive"]
+                                    },
+                                    "is_aligned": {
+                                      "type": "boolean"
+                                    },
+                                    "source": {
+                                      "type": "string",
+                                      "format": "uri"
+                                    }
+                                  },
+                                  "required": ["name", "is_aligned", "source"]
+                                }
+                              }
+                            },
+                            "required": ["mechanism", "metadata"]
+                          }
+                        }
+                      },
+                      "required": ["id", "mechanisms"]
+                    }
+                  },
                   "is_implemented": {
                     "type": "boolean"
                   },
@@ -39,7 +84,7 @@
                     ]
                   }
                 },
-                "required": ["is_implemented", "url"]
+                "required": ["operator_sets", "is_implemented", "url"]
               },
               "reward": {
                 "type": "object",
@@ -77,7 +122,7 @@
             }
           }
         },
-        "required": ["name", "categories", "contract_address", "criteria", "contact"]
+        "required": ["name", "avs_address", "category", "criteria", "contact"]
       }
     }
   },
