@@ -40,14 +40,33 @@ Unique identifier for the operator set
 Type of slashing mechanism
 <!-- Example: deterministic, challenge_period, committee_based -->
 
-#### 📊 Metadata for This Mechanism
-For each of the following attributes:
+### 📊 Metadata for This Mechanism
+Fill out each of the following categories individually:
 
-- **Name**: One of `mechanism`, `enforcement`, `openness`, `incentive`
-- **Is Aligned**: `true` / `false`  
-  (Does this align with standards listed below?)
-- **Source**: Link to reference documentation
-  <!-- Example: https://docs.avs.org/slashing/mechanism -->
+#### 🧩 mechanism
+Is Aligned: true / false
+
+Source: Link to mechanism-related documentation
+
+<!-- Example: https://docs.avs.org/slashing/mechanism -->
+#### 👮🏼‍♂️ enforcement
+Is Aligned: true / false
+
+Source: Link to enforcement-related documentation
+
+<!-- Example: https://docs.avs.org/slashing/enforcement -->
+#### 🔓 openness
+Is Aligned: true / false
+
+Source: Link to openness-related documentation
+
+<!-- Example: https://docs.avs.org/slashing/openness -->
+#### 💸 incentive
+Is Aligned: true / false
+
+Source: Link to incentive-related documentation
+
+<!-- Example: https://docs.avs.org/slashing/incentive -->
 
 ---
 
