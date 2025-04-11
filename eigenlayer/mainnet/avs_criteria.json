@@ -8,7 +8,7 @@
         "slashing": {
           "operator_sets": [
             {
-              "id": "001",
+              "id": 1,
               "mechanisms": [
                 {
                   "mechanism": "deterministic",
@@ -33,7 +33,7 @@
               ]
             },
             {
-              "id": "002",
+              "id": 2,
               "mechanisms": [
                 {
                   "mechanism": "challenge_period",
@@ -109,7 +109,7 @@
         "slashing": {
           "operator_sets": [
             {
-              "id": "001",
+              "id": 1,
               "mechanisms": [
                 {
                   "mechanism": "challenge_period",
@@ -160,7 +160,7 @@
         "slashing": {
           "operator_sets": [
             {
-              "id": "003",
+              "id": 3,
               "mechanisms": [
                 {
                   "mechanism": "committee_based",
