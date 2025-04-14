@@ -11,20 +11,20 @@
               "id": 1,
               "mechanisms": [
                 {
-                  "mechanism": "deterministic",
+                  "mechanism": "DETERMINISTIC",
                   "metadata": [
                     {
-                      "name": "mechanism",
+                      "name": "MECHANISM",
                       "is_aligned": false,
                       "source": "https://arpa.network/slashing"
                     },
                     {
-                      "name": "enforcement",
+                      "name": "ENFORCEMENT",
                       "is_aligned": true,
                       "source": "https://arpa.network/policy"
                     },
                     {
-                      "name": "openness",
+                      "name": "OPENNESS",
                       "is_aligned": true,
                       "source": "https://arpa.network/docs"
                     }
@@ -36,50 +36,50 @@
               "id": 2,
               "mechanisms": [
                 {
-                  "mechanism": "challenge_period",
+                  "mechanism": "CHALLENGE_PERIOD",
                   "metadata": [
                     {
-                      "name": "mechanism",
+                      "name": "MECHANISM",
                       "is_aligned": false,
                       "source": "https://arpa.network/slashing"
                     },
                     {
-                      "name": "enforcement",
+                      "name": "ENFORCEMENT",
                       "is_aligned": false,
                       "source": "https://arpa.network/policy"
                     },
                     {
-                      "name": "openness",
+                      "name": "OPENNESS",
                       "is_aligned": true,
                       "source": "https://arpa.network/docs"
                     },
                     {
-                      "name": "incentive",
+                      "name": "INCENTIVE",
                       "is_aligned": true,
                       "source": "https://arpa.network/docs"
                     }
                   ]
                 },
                 {
-                  "mechanism": "committee_based",
+                  "mechanism": "COMMITTEE_BASED",
                   "metadata": [
                     {
-                      "name": "mechanism",
+                      "name": "MECHANISM",
                       "is_aligned": false,
                       "source": "https://arpa.network/slashing"
                     },
                     {
-                      "name": "enforcement",
+                      "name": "ENFORCEMENT",
                       "is_aligned": false,
                       "source": "https://arpa.network/policy"
                     },
                     {
-                      "name": "openness",
+                      "name": "OPENNESS",
                       "is_aligned": false,
                       "source": "https://arpa.network/docs"
                     },
                     {
-                      "name": "incentive",
+                      "name": "INCENTIVE",
                       "is_aligned": false,
                       "source": "https://arpa.network/docs"
                     }
@@ -112,25 +112,25 @@
               "id": 1,
               "mechanisms": [
                 {
-                  "mechanism": "challenge_period",
+                  "mechanism": "CHALLENGE_PERIOD",
                   "metadata": [
                     {
-                      "name": "mechanism",
+                      "name": "MECHANISM",
                       "is_aligned": true,
                       "source": "https://www.source.com"
                     },
                     {
-                      "name": "enforcement",
+                      "name": "ENFORCEMENT",
                       "is_aligned": true,
                       "source": "https://www.source.com"
                     },
                     {
-                      "name": "openness",
+                      "name": "OPENNESS",
                       "is_aligned": true,
                       "source": "https://www.source.com"
                     },
                     {
-                      "name": "incentive",
+                      "name": "INCENTIVE",
                       "is_aligned": true,
                       "source": "https://www.source.com"
                     }
@@ -163,25 +163,25 @@
               "id": 3,
               "mechanisms": [
                 {
-                  "mechanism": "committee_based",
+                  "mechanism": "COMMITTEE_BASED",
                   "metadata": [
                     {
-                      "name": "mechanism",
+                      "name": "MECHANISM",
                       "is_aligned": true,
                       "source": "https://unifi.io/zk"
                     },
                     {
-                      "name": "enforcement",
+                      "name": "ENFORCEMENT",
                       "is_aligned": false,
                       "source": "https://unifi.io/docs"
                     },
                     {
-                      "name": "openness",
+                      "name": "OPENNESS",
                       "is_aligned": true,
                       "source": "https://unifi.io/challenges"
                     },
                     {
-                      "name": "incentive",
+                      "name": "INCENTIVE",
                       "is_aligned": false,
                       "source": "https://unifi.io/slashing"
                     }

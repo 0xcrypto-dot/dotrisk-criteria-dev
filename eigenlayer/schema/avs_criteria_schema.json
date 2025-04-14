@@ -44,7 +44,7 @@
                             "properties": {
                               "mechanism": {
                                 "type": "string",
-                                "enum": ["deterministic", "challenge_period", "committee_based"]
+                                "enum": ["DETERMINISTIC", "CHALLENGE_PERIOD", "COMMITTEE_BASED"]
                               },
                               "metadata": {
                                 "type": "array",
@@ -53,7 +53,7 @@
                                   "properties": {
                                     "name": {
                                       "type": "string",
-                                      "enum": ["mechanism", "enforcement", "openness", "incentive"]
+                                      "enum": ["MECHANISM", "ENFORCEMENT", "OPENNESS", "INCENTIVE"]
                                     },
                                     "is_aligned": {
                                       "type": "boolean"

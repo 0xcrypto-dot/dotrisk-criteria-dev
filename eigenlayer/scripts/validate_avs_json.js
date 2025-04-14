@@ -37,9 +37,9 @@ if (invalidCategories.length > 0) {
 }
 
 const mechanismRequiredMetadata = {
-    "deterministic": ["mechanism", "enforcement", "openness"],
-    "challenge_period": ["mechanism", "enforcement", "openness", "incentive"],
-    "committee_based": ["mechanism", "enforcement", "openness", "incentive"]
+    "DETERMINISTIC": ["MECHANISM", "ENFORCEMENT", "OPENNESS"],
+    "CHALLENGE_PERIOD": ["MECHANISM", "ENFORCEMENT", "OPENNESS", "INCENTIVE"],
+    "COMMITTEE_BASED": ["MECHANISM", "ENFORCEMENT", "OPENNESS", "INCENTIVE"]
 };
 
 const invalidMetadata = [];
