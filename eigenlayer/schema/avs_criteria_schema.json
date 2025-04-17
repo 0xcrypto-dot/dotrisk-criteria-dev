@@ -53,7 +53,7 @@
                                   "properties": {
                                     "name": {
                                       "type": "string",
-                                      "enum": ["MECHANISM", "ENFORCEMENT", "OPENNESS", "INCENTIVE"]
+                                      "enum": ["SUITABILITY", "ENFORCEMENT", "TRANSPARENCY", "REWARDS"]
                                     },
                                     "is_aligned": {
                                       "type": "boolean"

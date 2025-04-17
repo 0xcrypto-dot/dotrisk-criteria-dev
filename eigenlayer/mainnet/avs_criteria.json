@@ -14,7 +14,7 @@
                   "mechanism": "DETERMINISTIC",
                   "metadata": [
                     {
-                      "name": "MECHANISM",
+                      "name": "SUITABILITY",
                       "is_aligned": false,
                       "source": "https://arpa.network/slashing"
                     },
@@ -24,7 +24,7 @@
                       "source": "https://arpa.network/policy"
                     },
                     {
-                      "name": "OPENNESS",
+                      "name": "TRANSPARENCY",
                       "is_aligned": true,
                       "source": "https://arpa.network/docs"
                     }
@@ -39,7 +39,7 @@
                   "mechanism": "CHALLENGE_PERIOD",
                   "metadata": [
                     {
-                      "name": "MECHANISM",
+                      "name": "SUITABILITY",
                       "is_aligned": false,
                       "source": "https://arpa.network/slashing"
                     },
@@ -49,12 +49,12 @@
                       "source": "https://arpa.network/policy"
                     },
                     {
-                      "name": "OPENNESS",
+                      "name": "TRANSPARENCY",
                       "is_aligned": true,
                       "source": "https://arpa.network/docs"
                     },
                     {
-                      "name": "INCENTIVE",
+                      "name": "REWARDS",
                       "is_aligned": true,
                       "source": "https://arpa.network/docs"
                     }
@@ -64,7 +64,7 @@
                   "mechanism": "COMMITTEE_BASED",
                   "metadata": [
                     {
-                      "name": "MECHANISM",
+                      "name": "SUITABILITY",
                       "is_aligned": false,
                       "source": "https://arpa.network/slashing"
                     },
@@ -74,12 +74,12 @@
                       "source": "https://arpa.network/policy"
                     },
                     {
-                      "name": "OPENNESS",
+                      "name": "TRANSPARENCY",
                       "is_aligned": false,
                       "source": "https://arpa.network/docs"
                     },
                     {
-                      "name": "INCENTIVE",
+                      "name": "REWARDS",
                       "is_aligned": false,
                       "source": "https://arpa.network/docs"
                     }
@@ -115,7 +115,7 @@
                   "mechanism": "CHALLENGE_PERIOD",
                   "metadata": [
                     {
-                      "name": "MECHANISM",
+                      "name": "SUITABILITY",
                       "is_aligned": true,
                       "source": "https://www.source.com"
                     },
@@ -125,12 +125,12 @@
                       "source": "https://www.source.com"
                     },
                     {
-                      "name": "OPENNESS",
+                      "name": "TRANSPARENCY",
                       "is_aligned": true,
                       "source": "https://www.source.com"
                     },
                     {
-                      "name": "INCENTIVE",
+                      "name": "REWARDS",
                       "is_aligned": true,
                       "source": "https://www.source.com"
                     }
@@ -166,7 +166,7 @@
                   "mechanism": "COMMITTEE_BASED",
                   "metadata": [
                     {
-                      "name": "MECHANISM",
+                      "name": "SUITABILITY",
                       "is_aligned": true,
                       "source": "https://unifi.io/zk"
                     },
@@ -176,12 +176,12 @@
                       "source": "https://unifi.io/docs"
                     },
                     {
-                      "name": "OPENNESS",
+                      "name": "TRANSPARENCY",
                       "is_aligned": true,
                       "source": "https://unifi.io/challenges"
                     },
                     {
-                      "name": "INCENTIVE",
+                      "name": "REWARDS",
                       "is_aligned": false,
                       "source": "https://unifi.io/slashing"
                     }
