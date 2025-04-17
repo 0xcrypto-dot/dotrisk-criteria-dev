@@ -202,6 +202,17 @@
         "telegram": "https://t.me/UniFiAVS",
         "discord": ""
       }
+    },
+    {
+      "name": "Monetizado AVS",
+      "avs_address": "0xffa3f4316b64df4a3dbb26d04b06fd4796fcb370",
+      "category": ["Interoperability"],
+      "criteria": {
+      },
+      "contact": {
+        "telegram": "https://t.me/UniFiAVS",
+        "discord": ""
+      }
     }
   ]
 }

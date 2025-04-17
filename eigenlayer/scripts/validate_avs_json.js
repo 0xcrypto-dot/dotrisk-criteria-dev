@@ -45,7 +45,7 @@ const mechanismRequiredMetadata = {
 const invalidMetadata = [];
 
 fileData.projects.forEach(project => {
-    if (project.criteria.slashing.operator_sets) {
+    if (project.criteria?.slashing?.operator_sets) {
         project.criteria.slashing.operator_sets.forEach(set => {
             set.mechanisms.forEach(mechInfo => {
                 const mechanism = mechInfo.mechanism;
