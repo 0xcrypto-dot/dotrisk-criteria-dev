@@ -1,3 +1,5 @@
+<!-- Use this template for updating slashing mechanism info -->
+
 # ✅ AVS Information Submission Guide
 
 ## 📌 Basic Info
