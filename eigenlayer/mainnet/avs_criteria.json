@@ -1,8 +1,8 @@
 {
   "projects": [
     {
-      "name": "Lagrange ZK Prover Network",
-      "avs_address": "0x22cac0e6a1465f043428e8aef737b3cb09d0eeda",
+      "name": "example avs",
+      "avs_address": "0x37b223e9d3dbebf2a08c358b8ef9f024fc134f8f",
       "category": ["ZK"],
       "criteria": {
         "slashing": {
