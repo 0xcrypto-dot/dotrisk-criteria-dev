@@ -2,7 +2,7 @@
 
 # AVS Main Information Submission Guide
 
-### 📌 Basic Info
+## 📌 Basic Info
 Name of your AVS project: 
 <!-- Example: EigenDA -->
 
@@ -18,7 +18,7 @@ Nature of the project (multiple allowed):
 
 ---
 
-### 🔐 Slashing
+## 🔐 Slashing
 
 Is Slashing Implemented?: 
 <!-- `true` / `false` -->
@@ -28,7 +28,7 @@ Link to slashing-related documentation:
 
 ---
 
-### 💰 Rewards
+## 💰 Rewards
 
 Is Reward Mechanism Implemented?: 
 <!-- `true` / `false` -->
@@ -38,7 +38,7 @@ Link to reward-related documentation:
 
 ---
 
-### 📞 Contact Info
+## 📞 Contact Info
 
 Link to your project’s Telegram: 
 <!-- Example: https://t.me/AVSCommunity -->
