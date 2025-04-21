@@ -1,0 +1,70 @@
+{
+  "avs_projects": [
+    {
+      "name": "example avs",
+      "avs_address": "0x37b223e9d3dbebf2a08c358b8ef9f024fc134f8f",
+      "category": ["Social"],
+      "criteria": {
+        "slashing": {
+          "is_implemented": true,
+          "url": ""
+        },
+        "reward": {
+          "is_implemented": false,
+          "url": "https://discord.gg/arpa"
+        }
+      },
+      "contact": {
+        "telegram": "https://t.me/ARPA_Network",
+        "discord": "https://discord.gg/arpa"
+      }
+    },
+    {
+      "name": "EigenDA",
+      "avs_address": "0xd4a7e1bd8015057293f0d0a557088c286942e84b",
+      "category": ["DA", "ZK"],
+      "criteria": {
+        "slashing": {
+          "is_implemented": true,
+          "url": "https://slashing.com"
+        },
+        "reward": {
+          "is_implemented": true,
+          "url": "https://app.eigenlayer.xyz/avs/0x870679e138bcdf293b7ff14dd44b70fc97e12fc0"
+        }
+      },
+      "contact": {
+        "telegram": "https://t.me/EigenDACommunity",
+        "discord": "https://discord.gg/eigenda"
+      }
+    },
+    {
+      "name": "Hyperlane AVS",
+      "avs_address": "0xc76e477437065093d353b7d56c81ff54d167b0ab",
+      "category": ["Interoperability"],
+      "criteria": {
+        "slashing": {
+          "is_implemented": false,
+          "url": ""
+        },
+        "reward": {
+          "is_implemented": false,
+          "url": ""
+        }
+      },
+      "contact": {
+        "telegram": "https://t.me/UniFiAVS",
+        "discord": ""
+      }
+    },
+    {
+      "name": "Monetizado AVS",
+      "avs_address": "0xffa3f4316b64df4a3dbb26d04b06fd4796fcb370",
+      "category": ["Interoperability"],
+      "contact": {
+        "telegram": "https://t.me/UniFiAVS",
+        "discord": ""
+      }
+    }
+  ]
+}
