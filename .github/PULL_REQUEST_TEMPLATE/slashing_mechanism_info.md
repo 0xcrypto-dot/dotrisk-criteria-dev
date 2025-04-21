@@ -63,7 +63,6 @@ is Rewards aligned:
 Link to Rewards-related documentation:  
 
 
-----------------------------------------------------------
 <!-- Additional Example
 
 Let's say this AVS (`0x870679e138bcdf293b7ff14dd44b70fc97e12fc0`) has two operator sets on Holesky,  
