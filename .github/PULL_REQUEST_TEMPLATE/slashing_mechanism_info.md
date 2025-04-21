@@ -1,94 +1,61 @@
-<!-- Use this template for updating slashing mechanism info -->
-
-# ✅ AVS Information Submission Guide
+# Slashing Mechanism Submission Guide
 
 ## 📌 Basic Info
 
-### 🏷️ Project Name
-Name of your AVS project
-<!-- Example: Lagrange ZK Prover Network -->
+Specify the network:  
+<!-- Example: Mainnet / Holesky -->
 
-### 🌐 Network
-Specify the network: `Ethereum Mainnet` or `Ethereum Holesky`
-
-### 🧾 AVS Address
-Smart contract address of the AVS on Ethereum
-<!-- Example: 0xf98d5de1014110c65c51b85ea55f73863215cc10 -->
-
-### 🗂️ Category
-Nature of the project (multiple allowed)
-<!-- Example: ZK, Oracle -->  
-<!-- Refer to: /eigenlayer/schema/avs_category.json -->
+Smart contract address of the AVS on Ethereum:  
+<!-- Example: `0x870679e138bcdf293b7ff14dd44b70fc97e12fc0` -->
 
 ---
 
-## 🔐 Slashing
+## 🧑‍🔧 Operator Sets
 
-### ✅ Is Slashing Implemented?
-`true` / `false`
+Please fill out the following section for each operator set you operate.
 
-### 🔗 Slashing Documentation
-Link to slashing-related documentation
-<!-- Example: https://docs.avs.org/slashing -->
-
-### 🧑‍🔧 Operator Sets
-Repeat the following for each operator set:
-
-#### 🔢 ID
-Unique identifier for the operator set
+Unique identifier for the operator set:  
 <!-- Example: 1 -->
 
-#### ⚙️ Mechanism Type
-Type of slashing mechanism
+### ⚙️ Mechanism Type
+
+Type of slashing mechanism:  
 <!-- Example: deterministic, challenge_period, committee_based -->
 
-### 📊 Metadata for This Mechanism
-Fill out each of the following categories individually:
+---
 
-#### 🧩 mechanism
-Is Aligned: true / false
+### 📋 Metadata for This Mechanism
 
-Source: Link to mechanism-related documentation
+#### Suitability
+is Suitability aligned:  
+<!-- Example: `true` / `false` -->
 
-<!-- Example: https://docs.avs.org/slashing/mechanism -->
-#### 👮🏼‍♂️ enforcement
-Is Aligned: true / false
+Link to Suitability-related documentation:  
+<!-- Example: https://docs.avs.org/slashing/suitability -->
 
-Source: Link to enforcement-related documentation
+---
 
+#### Enforcement
+is Enforcement aligned:  
+<!-- Example: `true` / `false` -->
+
+Link to Enforcement-related documentation:  
 <!-- Example: https://docs.avs.org/slashing/enforcement -->
-#### 🔓 openness
-Is Aligned: true / false
-
-Source: Link to openness-related documentation
-
-<!-- Example: https://docs.avs.org/slashing/openness -->
-#### 💸 incentive
-Is Aligned: true / false
-
-Source: Link to incentive-related documentation
-
-<!-- Example: https://docs.avs.org/slashing/incentive -->
 
 ---
 
-## 💰 Rewards
+#### Transparency
+is Transparency aligned:  
+<!-- Example: `true` / `false` -->
 
-### ✅ Is Reward Mechanism Implemented?
-`true` / `false`
-
-### 🔗 Reward Documentation
-Link to documentation or UI
-<!-- Example: https://app.eigenlayer.xyz/avs/... -->
+Link to Transparency-related documentation:  
+<!-- Example: https://docs.avs.org/slashing/transparency -->
 
 ---
 
-## 📞 Contact Info
+#### Rewards
+is Rewards aligned:  
+<!-- Example: `true` / `false` -->
 
-### 📲 Telegram
-Link to your project’s Telegram
-<!-- Example: https://t.me/AVSCommunity -->
-
-### 💬 Discord
-Link to your project’s Discord
-<!-- Example: https://discord.gg/projectxyz -->
+Link to Rewards-related documentation:  
+<!-- Example: https://docs.avs.org/slashing/rewards -->
