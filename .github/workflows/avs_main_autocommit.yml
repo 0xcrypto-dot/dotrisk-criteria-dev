@@ -1,0 +1,44 @@
+name: Parse & Commit AVS Info from PR
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize]
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  update-avs-main:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Extract network from PR body
+        id: extract-network
+        run: |
+          PR_BODY="${{ github.event.pull_request.body }}"
+          NETWORK=$(echo "$PR_BODY" | grep -i 'Specify the network:' | sed -E 's/.*Specify the network:\s*//I' | awk '{print tolower($1)}')
+          echo "Parsed network: $NETWORK"
+          echo "network=$NETWORK" >> $GITHUB_OUTPUT
+
+      - name: Parse PR and update JSON
+        run: |
+          NETWORK=${{ steps.extract-network.outputs.network }} node eigenlayer/scripts/commit_avs_main.js
+        env:
+          NETWORK: ${{ steps.extract-network.outputs.network }}
+
+      - name: Commit and push updated JSON
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add eigenlayer/${{ steps.extract-network.outputs.network }}/avs_main.json
+          git commit -m "chore: auto-update avs_main.json from PR #${{ github.event.pull_request.number }}" || echo "No changes to commit"
+          git push
