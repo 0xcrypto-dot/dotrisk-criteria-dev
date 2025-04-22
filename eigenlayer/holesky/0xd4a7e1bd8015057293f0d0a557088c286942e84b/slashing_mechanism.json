@@ -1,0 +1,35 @@
+{
+  "avs_address": "0xd4a7e1bd8015057293f0d0a557088c286942e84b",
+  "operator_sets": [
+    {
+      "id": 1,
+      "mechanisms": [
+        {
+          "mechanism": "CHALLENGE_PERIOD",
+          "metadata": [
+            {
+              "name": "SUITABILITY",
+              "is_aligned": true,
+              "source": "https://docs.arpanetwork.io/"
+            },
+            {
+              "name": "ENFORCEMENT",
+              "is_aligned": true,
+              "source": "https://docs.arpanetwork.io/"
+            },
+            {
+              "name": "TRANSPARENCY",
+              "is_aligned": true,
+              "source": "https://docs.arpanetwork.io/"
+            },
+            {
+              "name": "REWARDS",
+              "is_aligned": true,
+              "source": "https://docs.arpanetwork.io/becoming-a-node-and-get-rewarded"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

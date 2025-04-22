@@ -1,0 +1,18 @@
+{
+  "name": "EigenDA",
+  "category": ["DA", "ZK"],
+  "criteria": {
+    "slashing": {
+      "is_implemented": true,
+      "url": "https://slashing.com"
+    },
+    "reward": {
+      "is_implemented": true,
+      "url": "https://app.eigenlayer.xyz/avs/0x870679e138bcdf293b7ff14dd44b70fc97e12fc0"
+    }
+  },
+  "contact": {
+    "telegram": "https://t.me/EigenDACommunity",
+    "discord": "https://discord.gg/eigenda"
+  }
+}
