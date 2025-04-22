@@ -12,17 +12,17 @@
                 {
                   "name": "SUITABILITY",
                   "is_aligned": false,
-                  "source": "https://arpa.network/slashing"
+                  "source": "https://docs.arpanetwork.io/"
                 },
                 {
                   "name": "ENFORCEMENT",
                   "is_aligned": true,
-                  "source": "https://arpa.network/policy"
+                  "source": "https://docs.arpanetwork.io/"
                 },
                 {
                   "name": "TRANSPARENCY",
                   "is_aligned": true,
-                  "source": "https://arpa.network/docs"
+                  "source": "https://docs.arpanetwork.io/"
                 }
               ]
             }
@@ -37,22 +37,22 @@
                 {
                   "name": "SUITABILITY",
                   "is_aligned": false,
-                  "source": "https://arpa.network/slashing"
+                  "source": "https://docs.arpanetwork.io/"
                 },
                 {
                   "name": "ENFORCEMENT",
                   "is_aligned": false,
-                  "source": "https://arpa.network/policy"
+                  "source": "https://docs.arpanetwork.io/"
                 },
                 {
                   "name": "TRANSPARENCY",
                   "is_aligned": true,
-                  "source": "https://arpa.network/docs"
+                  "source": "https://docs.arpanetwork.io/"
                 },
                 {
                   "name": "REWARDS",
                   "is_aligned": true,
-                  "source": "https://arpa.network/docs"
+                  "source": "https://docs.arpanetwork.io/becoming-a-node-and-get-rewarded"
                 }
               ]
             },
@@ -62,22 +62,22 @@
                 {
                   "name": "SUITABILITY",
                   "is_aligned": false,
-                  "source": "https://arpa.network/slashing"
+                  "source": "https://docs.arpanetwork.io/"
                 },
                 {
                   "name": "ENFORCEMENT",
                   "is_aligned": false,
-                  "source": "https://arpa.network/policy"
+                  "source": "https://docs.arpanetwork.io/"
                 },
                 {
                   "name": "TRANSPARENCY",
                   "is_aligned": false,
-                  "source": "https://arpa.network/docs"
+                  "source": "https://docs.arpanetwork.io/"
                 },
                 {
                   "name": "REWARDS",
                   "is_aligned": false,
-                  "source": "https://arpa.network/docs"
+                  "source": "https://docs.arpanetwork.io/becoming-a-node-and-get-rewarded"
                 }
               ]
             }
@@ -97,22 +97,22 @@
                 {
                   "name": "SUITABILITY",
                   "is_aligned": true,
-                  "source": "https://www.source.com"
+                  "source": "https://docs.arpanetwork.io/"
                 },
                 {
                   "name": "ENFORCEMENT",
                   "is_aligned": true,
-                  "source": "https://www.source.com"
+                  "source": "https://docs.arpanetwork.io/"
                 },
                 {
                   "name": "TRANSPARENCY",
                   "is_aligned": true,
-                  "source": "https://www.source.com"
+                  "source": "https://docs.arpanetwork.io/"
                 },
                 {
                   "name": "REWARDS",
                   "is_aligned": true,
-                  "source": "https://www.source.com"
+                  "source": "https://docs.arpanetwork.io/becoming-a-node-and-get-rewarded"
                 }
               ]
             }
@@ -132,22 +132,22 @@
                 {
                   "name": "SUITABILITY",
                   "is_aligned": true,
-                  "source": "https://unifi.io/zk"
+                  "source": "https://docs.arpanetwork.io/"
                 },
                 {
                   "name": "ENFORCEMENT",
                   "is_aligned": false,
-                  "source": "https://unifi.io/docs"
+                  "source": "https://docs.arpanetwork.io/"
                 },
                 {
                   "name": "TRANSPARENCY",
                   "is_aligned": true,
-                  "source": "https://unifi.io/challenges"
+                  "source": "https://docs.arpanetwork.io/"
                 },
                 {
                   "name": "REWARDS",
                   "is_aligned": false,
-                  "source": "https://unifi.io/slashing"
+                  "source": "https://docs.arpanetwork.io/becoming-a-node-and-get-rewarded"
                 }
               ]
             }
