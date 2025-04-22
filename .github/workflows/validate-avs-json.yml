@@ -19,11 +19,10 @@ jobs:
         with:
           node-version: '18'
 
-
       - name: Install Dependencies
         run: |
           npm install ajv ajv-formats
 
       - name: Validate JSON
-        run: node eigenlayer/scripts/validate_avs_json.js eigenlayer/${{ matrix.network }}/avs_main.json eigenlayer/${{ matrix.network }}/avs_slashing_mechanism.json eigenlayer/schema/avs_category.json eigenlayer/schema/avs_main_schema.json eigenlayer/schema/avs_slashing_mechanism_schema.json
+        run: node eigenlayer/scripts/validate_avs_json.js eigenlayer/${{ matrix.network }} eigenlayer/schema/avs_category.json eigenlayer/schema/main_schema.json eigenlayer/schema/slashing_mechanism_schema.json
         

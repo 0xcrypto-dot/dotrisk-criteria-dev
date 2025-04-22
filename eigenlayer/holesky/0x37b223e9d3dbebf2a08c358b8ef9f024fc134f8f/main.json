@@ -1,0 +1,20 @@
+{
+  "name": "example avs",
+  "category": [
+    "Social"
+  ],
+  "criteria": {
+    "slashing": {
+      "is_implemented": true,
+      "url": ""
+    },
+    "reward": {
+      "is_implemented": false,
+      "url": "https://discord.gg/arpa"
+    }
+  },
+  "contact": {
+    "telegram": "https://t.me/ARPA_Network",
+    "discord": "https://discord.gg/arpa"
+  }
+}
