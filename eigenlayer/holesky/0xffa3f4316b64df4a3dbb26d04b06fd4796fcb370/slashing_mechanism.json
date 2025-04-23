@@ -1,10 +1,10 @@
 {
   "operator_sets": [
     {
-      "id": 1,
+      "id": 3,
       "mechanisms": [
         {
-          "mechanism": "CHALLENGE_PERIOD",
+          "mechanism": "COMMITTEE_BASED",
           "metadata": [
             {
               "name": "SUITABILITY",
@@ -13,7 +13,7 @@
             },
             {
               "name": "ENFORCEMENT",
-              "is_aligned": true,
+              "is_aligned": false,
               "source": "https://docs.arpanetwork.io/"
             },
             {
@@ -23,7 +23,7 @@
             },
             {
               "name": "REWARDS",
-              "is_aligned": true,
+              "is_aligned": false,
               "source": "https://docs.arpanetwork.io/becoming-a-node-and-get-rewarded"
             }
           ]
