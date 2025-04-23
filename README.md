@@ -1,4 +1,4 @@
-# AVS Metadata Update Guide  
+# AVS Metadata Update Guide
 
 Use this repository to update metadata for Actively Validated Services (AVSs) in EigenLayer, such as reward/slashing policies or slashing mechanisms.  
 Follow the steps below to get started.
