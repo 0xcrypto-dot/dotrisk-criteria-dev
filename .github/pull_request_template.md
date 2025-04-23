@@ -13,14 +13,14 @@ To update the metadata of an AVS (Actively Validated Service), please follow the
 You can update **either one** of the JSON files or **both**, depending on what needs to be changed.
 
 #### 2.1 Update Reward / Slashing Policy Status
-📄 [Sample: reward_slashing_policy_status.json](https://github.com/a41-official/dotrisk-criteria-dev/blob/main/eigenlayer/holesky/sample/reward_slashing_policy_status.json)
+📄 [Sample: reward_slashing_policy_status.json](https://github.com/a41-official/dotrisk-criteria-dev/blob/main/eigenlayer/sample/reward_slashing_policy_status.json)
 
 > ⚠️ Notes:
 > - The `category` field must match one of the entries listed in [avs_category.json](https://github.com/a41-official/dotrisk-criteria-dev/blob/main/eigenlayer/schema/avs_category.json).
 > - If your AVS does not fit any of the listed categories, please leave a comment in the PR to suggest a new one.
 
 #### 2.2 Update Operator Set Slashing Mechanism
-📄 [Sample: operator_set_slashing_mechanism.json](https://github.com/a41-official/dotrisk-criteria-dev/blob/main/eigenlayer/holesky/sample/operator_set_slashing_mechanism.json)
+📄 [Sample: operator_set_slashing_mechanism.json](https://github.com/a41-official/dotrisk-criteria-dev/blob/main/eigenlayer/sample/operator_set_slashing_mechanism.json)
 
 > ⚠️ Notes:
 > - One operator set **can have multiple slashing mechanisms**.
