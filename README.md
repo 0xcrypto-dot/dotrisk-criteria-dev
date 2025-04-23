@@ -1,4 +1,4 @@
-# AVS Metadata Update Guide  
+# Dotrisk Metadata Update Guide  
 
 Use this repository to update metadata for Actively Validated Services (AVSs) in EigenLayer, such as reward/slashing policies or slashing mechanisms.  
 
@@ -13,18 +13,15 @@ Follow the steps below to get started.
 Click the **"Fork"** button in the top-right corner of this page to create a personal copy of the repository under your GitHub account.
 
 ---
-### 2. Check the Pull Request Template
 
-Before making your changes, review the PR template to understand what's expected when submitting updates:  
-📄 [Pull Request Template](https://github.com/a41-official/dotrisk-criteria-dev/blob/main/.github/pull_request_template.md)
+### 2. Submit a Pull Request (with Template Guidelines)
 
-This template includes a checklist and important notes on formatting and validation that you should follow before opening your pull request.
+Before making changes, review the [Pull Request Template](https://github.com/a41-official/dotrisk-criteria-dev/blob/main/.github/pull_request_template.md).  
+It includes important formatting requirements, validation steps, and a checklist you must follow.
+
+Once your changes are ready:
+- Open a **Pull Request** from your fork to the `main` branch of the original repository
+- Ensure your updates comply with the schema, directory structure, and naming conventions
+- Leave comments if you're introducing a new AVS category or a unique policy format
 
 ---
-
-### 3. Open a Pull Request
-Go to your forked repository on GitHub and open a **Pull Request** against the `main` branch of the original repo.  
-Make sure to:
-- Review and follow the [Pull Request Template](https://github.com/a41-official/dotrisk-criteria-dev/blob/main/.github/pull_request_template.md)
-- Add any relevant comments (e.g., suggesting a new AVS category if needed)
-- Double-check that your files follow the correct schema, file structure, and naming conventions
