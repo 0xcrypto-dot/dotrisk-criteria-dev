@@ -1,0 +1,84 @@
+{
+  "operator_sets": [
+    {
+      "id": 1,
+      "mechanisms": [
+        {
+          "mechanism": "DETERMINISTIC",
+          "metadata": [
+            {
+              "name": "SUITABILITY",
+              "is_aligned": false,
+              "source": "https://docs.arpanetwork.io/"
+            },
+            {
+              "name": "ENFORCEMENT",
+              "is_aligned": true,
+              "source": "https://docs.arpanetwork.io/"
+            },
+            {
+              "name": "TRANSPARENCY",
+              "is_aligned": true,
+              "source": "https://docs.arpanetwork.io/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "mechanisms": [
+        {
+          "mechanism": "CHALLENGE_PERIOD",
+          "metadata": [
+            {
+              "name": "SUITABILITY",
+              "is_aligned": false,
+              "source": "https://docs.arpanetwork.io/"
+            },
+            {
+              "name": "ENFORCEMENT",
+              "is_aligned": false,
+              "source": "https://docs.arpanetwork.io/"
+            },
+            {
+              "name": "TRANSPARENCY",
+              "is_aligned": true,
+              "source": "https://docs.arpanetwork.io/"
+            },
+            {
+              "name": "REWARDS",
+              "is_aligned": true,
+              "source": "https://docs.arpanetwork.io/becoming-a-node-and-get-rewarded"
+            }
+          ]
+        },
+        {
+          "mechanism": "COMMITTEE_BASED",
+          "metadata": [
+            {
+              "name": "SUITABILITY",
+              "is_aligned": false,
+              "source": "https://docs.arpanetwork.io/"
+            },
+            {
+              "name": "ENFORCEMENT",
+              "is_aligned": false,
+              "source": "https://docs.arpanetwork.io/"
+            },
+            {
+              "name": "TRANSPARENCY",
+              "is_aligned": false,
+              "source": "https://docs.arpanetwork.io/"
+            },
+            {
+              "name": "REWARDS",
+              "is_aligned": false,
+              "source": "https://docs.arpanetwork.io/becoming-a-node-and-get-rewarded"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
