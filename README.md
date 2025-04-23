@@ -1,14 +1,16 @@
-# AVS Metadata Update Guide
+# AVS Metadata Update Guide  
 
 Use this repository to update metadata for Actively Validated Services (AVSs) in EigenLayer, such as reward/slashing policies or slashing mechanisms.  
+
 Follow the steps below to get started.
+
 ---
 
 ## 🚀 Getting Started
 
 ### 1. Fork this repository
 
-Click the **"Fork"** button at the top-right corner of this page to create a personal copy of the repository under your GitHub account.
+Click the **"Fork"** button in the top-right corner of this page to create a personal copy of the repository under your GitHub account.
 
 ---
 ### 2. Check the Pull Request Template
