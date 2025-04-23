@@ -1,4 +1,4 @@
-# AVS Metadata Update Checklist
+# AVS Metadata Update Guideline
 
 To update the metadata of an AVS (Actively Validated Service), please follow the steps below.
 
