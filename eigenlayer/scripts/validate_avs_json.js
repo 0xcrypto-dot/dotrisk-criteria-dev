@@ -49,8 +49,8 @@ const mainAddresses = new Set();
 
 for (const avsDir of avsDirs) {
     const avsAddress = avsDir;
-    const mainJsonPath = path.join(networkDir, avsDir, 'main.json');
-    const slashingJsonPath = path.join(networkDir, avsDir, 'slashing_mechanism.json');
+    const mainJsonPath = path.join(networkDir, avsDir, 'reward_slashing_policy_status.json');
+    const slashingJsonPath = path.join(networkDir, avsDir, 'operator_set_slashing_mechanism.json');
 
     if (fs.existsSync(mainJsonPath)) {
         const mainData = JSON.parse(fs.readFileSync(mainJsonPath, "utf8"));
