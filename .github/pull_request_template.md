@@ -13,14 +13,14 @@ To update the metadata of an AVS (Actively Validated Service), please follow the
 Copy the sample JSONs below and modify them according to your metadata.
 
 #### 2.1 `reward_slashing_policy_status.json`
-📄 [Sample JSON](https://github.com/a41-official/dotrisk-criteria-dev/blob/main/eigenlayer/sample/reward_slashing_policy_status.json)
+📄 [Sample JSON](../eigenlayer/sample/reward_slashing_policy_status.json)
 
 > ⚠️ Notes:
-> - The `category` field must match one of the entries listed in [avs_category.json](https://github.com/a41-official/dotrisk-criteria-dev/blob/main/eigenlayer/schema/avs_category.json).
+> - The `category` field must match one of the entries listed in [avs_category.json](../eigenlayer/schema/avs_category.json).
 > - If your AVS does not fit any of the listed categories, please leave a comment in the PR to suggest a new one.
 
 #### 2.2 `operator_set_slashing_mechanism.json`
-📄 [Sample JSON](https://github.com/a41-official/dotrisk-criteria-dev/blob/main/eigenlayer/sample/operator_set_slashing_mechanism.json)
+📄 [Sample JSON](../eigenlayer/sample/operator_set_slashing_mechanism.json)
 
 > ⚠️ Notes:
 > - One operator set **can have multiple slashing mechanisms**.
@@ -46,5 +46,10 @@ Copy the sample JSONs below and modify them according to your metadata.
 
 - [ ] I have read the [Data Update Guide](https://narrow-cello-dab.notion.site/Protocol-AVS-Page-s-Data-Update-Guide-1dec62052b8e801d8f6afab80d1a5f0a?pvs=4)
 - [ ] I have copied and customized the sample JSON(s) according to the guideline
-
+- [ ] My files are saved at the correct path: /eigenlayer/{network}/{avs_address}/
+- [ ] I followed the schema and naming conventions
+- [ ] I added a comment for any new categories or mechanisms (if applicable)
+- [ ] My PR includes:
+  - [ ] `reward_slashing_policy_status.json` (optional)
+  - [ ] `operator_set_slashing_mechanism.json` (optional)
 ---
