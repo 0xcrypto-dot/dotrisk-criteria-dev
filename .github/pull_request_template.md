@@ -1,4 +1,4 @@
-# Dotrisk Metadata Update Guideline
+# Restaking.Risk Metadata Update Guideline
 
 To update the metadata of an AVS (Actively Validated Service), please follow the steps below.
 

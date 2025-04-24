@@ -1,4 +1,4 @@
-# 🛠️ Dotrisk Metadata Update Guide
+# 🛠️ Restaking.risk Metadata Update Guide
 
 Welcome! 👋 This repository exists to help **AVS (Actively Validated Service) providers** contribute metadata about their reward and slashing policies to [Dotrisk](https://restaking-risk.vercel.app/), a public dashboard powered by A41 restaking insights.
 
